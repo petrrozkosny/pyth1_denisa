@@ -1,0 +1,350 @@
+kraje = {
+    "hlavni_mesto_praha": {
+        "mesta": {
+            "Praha": {
+                "pocet_obyvatel": 1300000,
+                "zalozeno": 880
+            }
+        },
+        "pocet_obyvatel": 1300000,
+        "reky": ["Vltava", "Berounka", "Rokytka"]
+    },
+    "stredocesky": {
+        "mesta": {
+            "Kladno": {
+                "pocet_obyvatel": 69000,
+                "zalozeno": 1318
+            },
+            "Mlada Boleslav": {
+                "pocet_obyvatel": 44000,
+                "zalozeno": 1334
+            },
+            "Pribram": {
+                "pocet_obyvatel": 32000,
+                "zalozeno": 1216
+            },
+            "Kolin": {
+                "pocet_obyvatel": 31000,
+                "zalozeno": 1261
+            },
+            "Kutna Hora": {
+                "pocet_obyvatel": 21000,
+                "zalozeno": 1142
+            }
+        },
+        "pocet_obyvatel": 1376000,
+        "reky": ["Vltava", "Labe", "Sazava"]
+    },
+    "jihocesky": {
+        "mesta": {
+            "Ceske Budejovice": {
+                "pocet_obyvatel": 95000,
+                "zalozeno": 1265
+            },
+            "Tabor": {
+                "pocet_obyvatel": 34000,
+                "zalozeno": 1420
+            },
+            "Pisek": {
+                "pocet_obyvatel": 30000,
+                "zalozeno": 1243
+            },
+            "Strakonice": {
+                "pocet_obyvatel": 23000,
+                "zalozeno": 1235
+            },
+            "Jindrichuv Hradec": {
+                "pocet_obyvatel": 22000,
+                "zalozeno": 1220
+            }
+        },
+        "pocet_obyvatel": 650000,
+        "reky": ["Vltava", "Luznice", "Otava"]
+    },
+    "plzensky": {
+        "mesta": {
+            "Plzen": {
+                "pocet_obyvatel": 170000,
+                "zalozeno": 1295
+            },
+            "Klatovy": {
+                "pocet_obyvatel": 23000,
+                "zalozeno": 1260
+            },
+            "Rokycany": {
+                "pocet_obyvatel": 14000,
+                "zalozeno": 1110
+            },
+            "Domazlice": {
+                "pocet_obyvatel": 11000,
+                "zalozeno": 1287
+            },
+            "Tachov": {
+                "pocet_obyvatel": 12000,
+                "zalozeno": 1115
+            }
+        },
+        "pocet_obyvatel": 585000,
+        "reky": ["Berounka", "Radbuza", "Uhlava"]
+    },
+    "karlovarsky": {
+        "mesta": {
+            "Karlovy Vary": {
+                "pocet_obyvatel": 50000,
+                "zalozeno": 1370
+            },
+            "Sokolov": {
+                "pocet_obyvatel": 24000,
+                "zalozeno": 1279
+            },
+            "Cheb": {
+                "pocet_obyvatel": 32000,
+                "zalozeno": 1061
+            },
+            "Ostrov": {
+                "pocet_obyvatel": 17000,
+                "zalozeno": 1224
+            },
+            "As": {
+                "pocet_obyvatel": 13000,
+                "zalozeno": 1270
+            }
+        },
+        "pocet_obyvatel": 290000,
+        "reky": ["Ohre", "Rolava", "Tepla"]
+    },
+    "ustecky": {
+        "mesta": {
+            "Usti nad Labem": {
+                "pocet_obyvatel": 93000,
+                "zalozeno": 993
+            },
+            "Teplice": {
+                "pocet_obyvatel": 50000,
+                "zalozeno": 762
+            },
+            "Most": {
+                "pocet_obyvatel": 67000,
+                "zalozeno": 1040
+            },
+            "Chomutov": {
+                "pocet_obyvatel": 49000,
+                "zalozeno": 1252
+            },
+            "Decin": {
+                "pocet_obyvatel": 48000,
+                "zalozeno": 993
+            }
+        },
+        "pocet_obyvatel": 820000,
+        "reky": ["Labe", "Ohre", "Bílina"]
+    },
+    "liberecky": {
+        "mesta": {
+            "Liberec": {
+                "pocet_obyvatel": 103000,
+                "zalozeno": 1352
+            },
+            "Jablonec nad Nisou": {
+                "pocet_obyvatel": 45000,
+                "zalozeno": 1356
+            },
+            "Ceska Lipa": {
+                "pocet_obyvatel": 37000,
+                "zalozeno": 1263
+            },
+            "Turnov": {
+                "pocet_obyvatel": 14000,
+                "zalozeno": 1272
+            },
+            "Tanvald": {
+                "pocet_obyvatel": 6300,
+                "zalozeno": 1611
+            }
+        },
+        "pocet_obyvatel": 440000,
+        "reky": ["Jizera", "Ploucnice", "Kamenice"]
+    },
+    "kralovehradecky": {
+        "mesta": {
+            "Hradec Kralove": {
+                "pocet_obyvatel": 93000,
+                "zalozeno": 1225
+            },
+            "Trutnov": {
+                "pocet_obyvatel": 31000,
+                "zalozeno": 1260
+            },
+            "Jicin": {
+                "pocet_obyvatel": 16000,
+                "zalozeno": 1300
+            },
+            "Nachod": {
+                "pocet_obyvatel": 20000,
+                "zalozeno": 1254
+            },
+            "Rychnov nad Kneznou": {
+                "pocet_obyvatel": 11000,
+                "zalozeno": 1258
+            }
+        },
+        "pocet_obyvatel": 550000,
+        "reky": ["Labe", "Upa", "Orlice"]
+    },
+    "pardubicky": {
+        "mesta": {
+            "Pardubice": {
+                "pocet_obyvatel": 90000,
+                "zalozeno": 1295
+            },
+            "Chrudim": {
+                "pocet_obyvatel": 23000,
+                "zalozeno": 993
+            },
+            "Svitavy": {
+                "pocet_obyvatel": 16000,
+                "zalozeno": 1145
+            },
+            "Usti nad Orlici": {
+                "pocet_obyvatel": 15000,
+                "zalozeno": 1308
+            },
+            "Litomysl": {
+                "pocet_obyvatel": 10000,
+                "zalozeno": 1259
+            }
+        },
+        "pocet_obyvatel": 520000,
+        "reky": ["Labe", "Chrudimka", "Orlice"]
+    },
+    "vysocina": {
+        "mesta": {
+            "Jihlava": {
+                "pocet_obyvatel": 51000,
+                "zalozeno": 1233
+            },
+            "Trebic": {
+                "pocet_obyvatel": 36000,
+                "zalozeno": 1101
+            },
+            "Havlickuv Brod": {
+                "pocet_obyvatel": 23000,
+                "zalozeno": 1256
+            },
+            "Zdar nad Sazavou": {
+                "pocet_obyvatel": 21000,
+                "zalozeno": 1207
+            },
+            "Pelhrimov": {
+                "pocet_obyvatel": 16000,
+                "zalozeno": 1290
+            }
+        },
+        "pocet_obyvatel": 510000,
+        "reky": ["Sazava", "Jihlava", "Svratka"]
+    },
+    "jihomoravsky": {
+        "mesta": {
+            "Brno": {
+                "pocet_obyvatel": 380000,
+                "zalozeno": 1243
+            },
+            "Znojmo": {
+                "pocet_obyvatel": 33000,
+                "zalozeno": 1226
+            },
+            "Blansko": {
+                "pocet_obyvatel": 20000,
+                "zalozeno": 1140
+            },
+            "Breclav": {
+                "pocet_obyvatel": 25000,
+                "zalozeno": 1041
+            },
+            "Hodonin": {
+                "pocet_obyvatel": 25000,
+                "zalozeno": 1228
+            }
+        },
+        "pocet_obyvatel": 1200000,
+        "reky": ["Svratka", "Dyje", "Morava"]
+    },
+    "olomoucky": {
+        "mesta": {
+            "Olomouc": {
+                "pocet_obyvatel": 100000,
+                "zalozeno": 1017
+            },
+            "Prostejov": {
+                "pocet_obyvatel": 44000,
+                "zalozeno": 1141
+            },
+            "Prerov": {
+                "pocet_obyvatel": 43000,
+                "zalozeno": 1131
+            },
+            "Sumperk": {
+                "pocet_obyvatel": 27000,
+                "zalozeno": 1269
+            },
+            "Hranice": {
+                "pocet_obyvatel": 19000,
+                "zalozeno": 1162
+            }
+        },
+        "pocet_obyvatel": 630000,
+        "reky": ["Morava", "Becva", "Desna"]
+    },
+    "zlinsky": {
+        "mesta": {
+            "Zlin": {
+                "pocet_obyvatel": 75000,
+                "zalozeno": 1322
+            },
+            "Uherske Hradiste": {
+                "pocet_obyvatel": 25000,
+                "zalozeno": 1257
+            },
+            "Vsetin": {
+                "pocet_obyvatel": 25000,
+                "zalozeno": 1308
+            },
+            "Kromeriz": {
+                "pocet_obyvatel": 29000,
+                "zalozeno": 1260
+            },
+            "Valasske Mezirici": {
+                "pocet_obyvatel": 22000,
+                "zalozeno": 1297
+            }
+        },
+        "pocet_obyvatel": 580000,
+        "reky": ["Morava", "Becva", "Drevnice"]
+    },
+    "moravskoslezsky": {
+        "mesta": {
+            "Ostrava": {
+                "pocet_obyvatel": 290000,
+                "zalozeno": 1267
+            },
+            "Havirov": {
+                "pocet_obyvatel": 73000,
+                "zalozeno": 1955
+            },
+            "Karvina": {
+                "pocet_obyvatel": 52000,
+                "zalozeno": 1268
+            },
+            "Opava": {
+                "pocet_obyvatel": 55000,
+                "zalozeno": 1224
+            },
+            "Frydek-Mistek": {
+                "pocet_obyvatel": 56000,
+                "zalozeno": 1327
+            }
+        },
+        "pocet_obyvatel": 1190000,
+        "reky": ["Odra", "Ostravice", "Opava"]
+    }
+}
