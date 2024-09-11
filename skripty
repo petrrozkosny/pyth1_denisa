@@ -1,0 +1,20 @@
+mesta = ['Praha','Brno','Ostrava']
+
+# pro kazdou jednu polozku v listu mesta
+# for i in mesta:
+#     print('Ahoj, já jsem z města ' + i)
+
+i = 0
+
+# while i < len(mesta):
+#     print(mesta[i], 'i se rovna', i)
+#     #i += 1 # i rovna se i plus jedna
+
+pokracovat = 'Y'
+while pokracovat == 'Y':
+    mesto = input('Zadej mesto: ')
+
+    print(mesto in mesta)
+    pokracovat = input('Chces pokracovat? Y/N ')
+
+
