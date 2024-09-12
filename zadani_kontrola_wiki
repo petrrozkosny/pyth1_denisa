@@ -3,7 +3,7 @@
 2. Tato funkce bude mit jeden pozicni argument stranka
 3. Uvnitr funkce definujte promennou wiki s hodnotou https://cs.wikipedia.org/wiki/
 4. Do promenne obsah si ulozte vysledek requests.get() zavolejte wiki+stranka
-5. Do promenne status si ulozte obsah.stranka
+5. Do promenne status si ulozte obsah.status_code
 6. Pokud status != 200 vypiste "Stranka neexistuje", jinak vypiste "stranka existuje"
 
 7. V main.py vytvorte list stranky s hodnotami = 'Praha','ictpro','python'"00. Uvod.ipynb"
