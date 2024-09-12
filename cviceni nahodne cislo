@@ -1,7 +1,7 @@
 '''
 1. Do uzivatelske_funkce.py naimportujte knihovnu random
 2. Vytvorte funkci hadej_cislo() s jednim pozicnim argumentem cislo
-3. Ve funkci si vytvorte promennou nahodne_cislo = random.randomint(1,3)
+3. Ve funkci si vytvorte promennou nahodne_cislo = random.randint(1,3)
 4. Zkuste cislo prevest na int, pokud se to nepodari z duvodu ValueError, vratte "Nelze prevest na cislo"
 5. Pokud cislo neni 1-3 (napr. uzivatel zada 10), vypiste uzivateli "Cislo mimo rozsah 1-3"
 6. Pokud cislo je v rozsahu 1-3 a rovna se nahodne_cislo, vratte "Uhádnul jsi", jinak vraťte "Neuhádnul jsi"
