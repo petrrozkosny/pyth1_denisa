@@ -1,0 +1,25 @@
+countries_info = {
+    'Czech Republic': {'prumerna_teplota': 9.0, 'ma_more': False, 'doba_letu_z_Prahy': 0},  # Evropa
+    'Germany': {'prumerna_teplota': 8.5, 'ma_more': True, 'doba_letu_z_Prahy': 1.5},
+    'Italy': {'prumerna_teplota': 13.0, 'ma_more': True, 'doba_letu_z_Prahy': 2},
+    'Spain': {'prumerna_teplota': 14.5, 'ma_more': True, 'doba_letu_z_Prahy': 3},
+    'France': {'prumerna_teplota': 11.5, 'ma_more': True, 'doba_letu_z_Prahy': 2},
+
+    'Egypt': {'prumerna_teplota': 22.0, 'ma_more': True, 'doba_letu_z_Prahy': 4},  # Afrika
+    'South Africa': {'prumerna_teplota': 17.5, 'ma_more': True, 'doba_letu_z_Prahy': 11},
+    'Kenya': {'prumerna_teplota': 23.0, 'ma_more': True, 'doba_letu_z_Prahy': 8},
+    'Nigeria': {'prumerna_teplota': 26.5, 'ma_more': True, 'doba_letu_z_Prahy': 6.5},
+    'Ethiopia': {'prumerna_teplota': 19.5, 'ma_more': False, 'doba_letu_z_Prahy': 7},
+
+    'Brazil': {'prumerna_teplota': 25.0, 'ma_more': True, 'doba_letu_z_Prahy': 12},  # Jizni Amerika
+    'Argentina': {'prumerna_teplota': 18.0, 'ma_more': True, 'doba_letu_z_Prahy': 14},
+    'Chile': {'prumerna_teplota': 15.5, 'ma_more': True, 'doba_letu_z_Prahy': 16},
+    'Colombia': {'prumerna_teplota': 24.5, 'ma_more': True, 'doba_letu_z_Prahy': 11},
+    'Peru': {'prumerna_teplota': 19.0, 'ma_more': True, 'doba_letu_z_Prahy': 14},
+
+    'China': {'prumerna_teplota': 12.0, 'ma_more': True, 'doba_letu_z_Prahy': 10},  # Asie
+    'India': {'prumerna_teplota': 25.0, 'ma_more': True, 'doba_letu_z_Prahy': 8},
+    'Japan': {'prumerna_teplota': 11.5, 'ma_more': True, 'doba_letu_z_Prahy': 12},
+    'Thailand': {'prumerna_teplota': 28.0, 'ma_more': True, 'doba_letu_z_Prahy': 10.5},
+    'Saudi Arabia': {'prumerna_teplota': 30.0, 'ma_more': True, 'doba_letu_z_Prahy': 6.5},
+}
