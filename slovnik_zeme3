@@ -1,0 +1,46 @@
+zeme_info = {
+    1: {
+        "zeme": "Cesko",
+        "mesta": ["Praha", "Brno", "Ostrava"],
+        "reky": ["Vltava", "Labe", "Morava"]
+    },
+    2: {
+        "zeme": "Rakousko",
+        "mesta": ["Vídeň", "Graz", "Linz"],
+        "reky": ["Dunaj", "Inn", "Mur"]
+    },
+    3: {
+        "zeme": "Slovensko",
+        "mesta": ["Bratislava", "Košice", "Prešov"],
+        "reky": ["Dunaj", "Váh", "Hron"]
+    },
+    4: {
+        "zeme": "Madarsko",
+        "mesta": ["Budapešť", "Debrecín", "Szeged"],
+        "reky": ["Dunaj", "Tisa", "Rába"]
+    }
+}
+
+
+neexistujici_zeme = []
+'''
+Cviceni1
+Do promenne vstup si ulozit nazev zeme, na kterou se chcete zeptat
+Pokud zeme neni v zeme_info, vypiseme, ze zeme neni v seznamu a pridame ji do listu neexistujici_zeme
+'''
+
+'''
+Cviceni2
+Do promenne vstup_zeme si ulozte nazev zeme, kterou chce uzivatel pridat do slovniku
+Pokud nazev zeme ve slovniku je, vratte uzivateli "Zeme uz ve slovniku je", jinak 
+pridejte zemi do slovniku a vypiste "Zeme pridana".
+Hodnoty klicu mesta a reky budou prazdne listy
+'''
+
+'''
+Cviceni3
+Do promenne vstup_cislo zeme si ulozte poradi (idnex) zeme, na kterou se uzivatel chce zeptat
+Pokud zeme s timto indexem neexistuje, vypiste, ze zeme neexistuje
+Pokud vstup uzivatele neni mozne prevest na cistlo, vypiste "Zadana hodnota neni cislo"
+Pokud je mozne vstup prevest na cislo a zeme s danym indexem existuje, vypiste "Zeme existuje"
+'''
