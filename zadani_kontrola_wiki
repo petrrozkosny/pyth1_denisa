@@ -1,5 +1,5 @@
 '''
-1. V uzivatelske_funkce.py vytvorte funkci zkontroluj_heureku
+1. V uzivatelske_funkce.py vytvorte funkci zkontroluj_wiki
 2. Tato funkce bude mit jeden pozicni argument stranka
 3. Uvnitr funkce definujte promennou wiki s hodnotou https://cs.wikipedia.org/wiki/
 4. Do promenne obsah si ulozte vysledek requests.get() zavolejte wiki+stranka
