@@ -6,6 +6,6 @@
 5. Do promenne status si ulozte obsah.status_code
 6. Pokud status != 200 vypiste "Stranka neexistuje", jinak vypiste "stranka existuje"
 
-7. V main.py vytvorte list stranky s hodnotami = 'Praha','ictpro','python'"00. Uvod.ipynb"
+7. V main.py vytvorte list stranky s hodnotami = 'Praha','ictpro','python'
 8. Prochazejte stranky a opakovane volejte funkci z bodu 1-6
 '''
