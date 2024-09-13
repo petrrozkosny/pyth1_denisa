@@ -66,3 +66,10 @@ Cvičení 3 (druhá část)
     jinak "Email neexistuje"
 '''
 
+'''
+Cvičení 4
+1. Vytvorte promennou firma s hodnotou 'Mountfield'
+2. Vytvorte promennou typu list s hodnotami: Mantfild, Mountfeeld, Mauntfild
+3. Ktere hodnoty z listu maji vice nez 80% shodu s hodnotou z promenne firma
+'''
+
