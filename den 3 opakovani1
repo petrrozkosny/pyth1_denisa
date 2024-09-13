@@ -1,0 +1,68 @@
+maslo = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Máslo Jihočeské Madeta",
+    "brand": "Madeta",
+    "image": "https://img.kupi.cz/kupi/thumbs/maslo-jihoceske-madeta_170_340.jpg",
+    "description": "Máslo Jihočeské Madeta za akční ceny. Nakupte Máslo Jihočeské Madeta v akci od 49.9 Kč v obchodě Tesco, Kaufland, BILLA, Albert, FLOP TOP, Globus, prohlédněte si hodnocení a recenze Máslo Jihočeské Madeta. Další slevy másel na Kupi.cz",
+    "offers": {
+        "@type": "AggregateOffer",
+        "lowPrice": 49.9,
+        "highPrice": 59.9,
+        "priceCurrency": "CZK",
+        "offerCount": 8,
+        "offers": [
+            {"@type": "Offer", "offeredBy": "Tesco", "price": 49.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"},
+            {"@type": "Offer", "offeredBy": "Tesco", "price": 52.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"},
+            {"@type": "Offer", "offeredBy": "Albert", "price": 54.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"},
+            {"@type": "Offer", "offeredBy": "BILLA", "price": 54.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-15"},
+            {"@type": "Offer", "offeredBy": "Kaufland", "price": 54.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"},
+            {"@type": "Offer", "offeredBy": "FLOP TOP", "price": 59.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"},
+            {"@type": "Offer", "offeredBy": "Globus", "price": 59.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"},
+            {"@type": "Offer", "offeredBy": "Albert", "price": 59.9, "priceCurrency": "CZK", "priceValidUntil": "2024-09-17"}
+        ]
+    }
+}
+
+
+
+'''
+Cvičení 1:
+Ze slovníku maslo zjistěte hodnotu klíče lowPrice (bude potřeba se zanořit v rámci slovníku)
+'''
+
+'''
+Cvičení 2:
+1. Vytvořte si prázdný slovník nabidky
+2. Do proměnné vstup si uložte input uživatele, kterým bude požadovaná cena másla
+3. Zkuste převést vstup na celé číslo, pokud se to nepodaří, vraťte uživateli "Nejde převést na číslo"
+4. Pokud se převedení na číslo povede, iterujte slovníkem maslo. Pokud najdete hodnotu klíče price,
+   která je rovna či menší vstupu uživatele, uložte si hodnotu klíče offeredBy a hodnotu klíče price do slovníku
+   nabídky (klíčem v nabidky bude hodnota offeredBy, hodnotou pak bude hodnota price)
+5. Po dokončení iterace vypište uživateli přes print jednotlivé obchody a jejich ceny ze slovníku nabidky.
+Pokud žádné nabídky nesplňují podmínku ceny, vypište "Žádné nabídky nenalezeny"
+'''
+
+'''
+Cvičení 3 (první část)
+
+uzivatelske_funkce.py
+1. Naimportujte: from faker import Faker
+2. Vytvořte funkci generuj_email(), která nemá žádné argumenty
+3. Do proměnné mail si uložte výsledek Faker().email()
+4. Vraťte uživateli přes return hodnotu proměnné mail
+
+main.py
+5. Zkuste zavolat funkci generuj_email(), návratovou hodnotu si uložte do fake_email
+'''
+
+'''
+Cvičení 3 (druhá část)
+6. Vytvořte si prázdný list fake_emaily
+7. Vytvořte smyčku, která 100krát zavolá funkci generuj_email, výstup vždy přidejte do fake_emaily
+8. Do proměnné vstup si uložte input uživatele v podobě e-mailové adresy
+9. Pokud vstup uživatele neobsahuje @, vraťte "Neplatná emailová adresa", jinak pokračujte dále
+10. Zjistěte, jestli je uživatelem zadaný vstup v listu fake_emaily, pokud ano, vraťte "Email již existuje",
+    jinak "Email neexistuje"
+'''
+
