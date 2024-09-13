@@ -1,0 +1,79 @@
+import random
+class Honza:
+    # konstruktur
+    def __init__(self, jmeno, mesto):
+        self.jmeno = jmeno
+        self.mesto = mesto
+
+    # metoda (nebo také funkce nad objektem)
+    def pozdrav(self):
+        print(f'Ahoj {self.jmeno} z {self.mesto}!')
+
+class Katka:
+    def __init__(self,jmeno,mesto):
+        self.jmeno = jmeno
+        self.bydliste = mesto
+    
+    def pozdrav(self):
+        print('Nepozdravim')
+
+honza_vajsejtl = Honza('Honza','Liberec')
+honza_rozkosny = Honza('Honza','Brno')
+honza_vajsejtl.pozdrav()
+
+katka = Katka('Katka','Brno')
+print(katka.bydliste)
+katka.pozdrav()
+
+
+
+'''
+1. Trida Bojovnik
+2. Konstruktor s parametry jmeno, zbran
+3. Metoda vyhrozuj, ktera vypise "Penize, nebo zivot"
+4. Metoda bojuj, ktera vypise "Bojuji s {zbran}"
+'''
+
+
+class Bojovnik:
+
+    def __init__(self,jmeno,zbran=None):
+        self.jmeno = jmeno
+        self.zbran = zbran
+        self.vyhrozuj()
+        self.zeptej_se_na_zbran()
+        
+
+    def vyhrozuj(self):
+        print('Penize nebo zivot')
+
+    def bojuj(self):
+        if self.zbran is None:
+            print('Mám jen holé ruce')
+        else:
+            print(f'Bojuji s {self.zbran}')
+
+    def najdi_si_zbran(self):
+        zbrane = ['mec','dyka','pistole','zaludovka']
+        self.zbran = zbrane[random.randint(0,3)]
+        print(f'Nova zbran je {self.zbran}')
+
+    def zeptej_se_na_zbran(self):
+        vstup = input('Jakou zbran 1-4')
+        print(f'Stara zbran je {self.zbran}')
+        self.zbran = zbrane[int(vstup)]
+        print(f'Nova zbran je {self.zbran}')
+
+zbrane = ['mec','dyka','pistole','zaludovka']
+rumcajs = Bojovnik('rumcajs')
+
+# for i in range(10):
+#     globals()[f'bojovnik_{i}'] = Bojovnik(i,zbran = zbrane[random.randint(0,3)])
+
+
+# bar=1
+
+
+
+
+
